@@ -30,7 +30,7 @@
     "istanbul": "0.2.1",
     "expect.js": "0.2.0",
     "uglify-js": "2.4.15",
-    "browserify": "4.2.1",
+    "browserify": "7.0.3",
     "base64-arraybuffer": "0.1.0",
     "text-blob-builder": "0.0.1",
     "has-cors": "1.0.3"
