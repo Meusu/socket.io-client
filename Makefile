@@ -4,7 +4,7 @@ REPORTER = dot
 build: socket.io.js
 
 socket.io.js: lib/*.js index.js package.json
-	@./node_modules/.bin/browserify --no-bundle-external --standalone io --outfile socket.io.js index.js
+	@./node_modules/.bin/browserify --standalone io --outfile socket.io.js index.js
 
 test:
 	@if [ "x$(BROWSER_NAME)" = "x" ]; then make test-node; else make test-zuul; fi
